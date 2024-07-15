@@ -107,6 +107,19 @@ section{
     box-shadow: 1px 1px 10px gray;
     width: 22%;
     max-height: 100%;
+    transition: 1s;
+}
+.container4:hover{
+    color: white;
+    background-color: #96BB7C;
+}
+.redline{
+    width: 25%;
+    border-bottom: solid 4px red;
+    transition: 1s;
+}
+.redline:hover{
+    border-bottom: solid 4px white;
 }
 .cours{
     margin: 15%;
@@ -119,10 +132,6 @@ section{
 .imgc{
     width: 50%;
     height: 50%;
-}
-.redline{
-    width: 25%;
-    border-bottom: solid 4px red;
 }
 .vedio{
     width: 100%;
