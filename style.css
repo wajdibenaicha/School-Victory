@@ -1,0 +1,385 @@
+body{
+    height:100%;
+    background-color: white;
+    font-family: "Montserrat", sans-serif;
+
+}
+#b1{
+    background-color: rgb(235, 255, 214);
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.navdiv{
+    display:flex;
+    justify-content: space-around;
+    background-color: white;
+    width: 45%;
+}
+nav{
+    list-style-type: none;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 50%;
+}
+a{
+    text-decoration: none;
+    color: gray;
+    font-size: large;
+}
+a:hover{
+    color: #96BB7C;
+}
+.divbtn{
+    min-width: 35%;
+    min-height: 50px ;
+    margin: none;
+    padding: none;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+}
+.btn1, .btn2{    
+    min-width: 25%;;
+    min-height: 50px;
+    margin: 2%;
+    border:  2px solid #96BB7C;
+    border-radius: 5%;
+    margin: none;
+    
+}
+.btn1{
+    background-color: transparent;
+    color: rgb(25, 222, 25);
+}
+.btn1:hover{
+    background-color:#96BB7C ;
+    color:white
+}
+.btn2{
+    background-color:#96BB7C ;
+    color:white
+}
+section{
+    display: flex;
+    flex-direction: column;
+
+}
+.container1{
+    background-color: white;
+    height: auto;
+    width: auto;
+}
+.title{
+    font-size: 350%;
+}
+.on{
+    font-size: 100%;
+    color:#96BB7C
+}
+.container2{
+    width: 50%;
+    min-height:90%;
+    background-size: cover;
+}
+.container{
+   margin: 5%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.paragraphe{
+    color: gray;
+    font-size:200%;
+}
+.container3{
+    gap: 50px;
+    display: flex;
+    justify-content: center;
+    
+}
+.container4{
+    border:none;
+    box-shadow: 1px 1px 10px gray;
+    width: 22%;
+    max-height: 100%;
+}
+.cours{
+    margin: 15%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    flex-wrap: wrap;
+   
+}
+.imgc{
+    width: 50%;
+    height: 50%;
+}
+.redline{
+    width: 25%;
+    border-bottom: solid 4px red;
+}
+.vedio{
+    width: 100%;
+    height: 100%;
+    border-radius: 5%;
+}
+.img1{
+    width: 25%;
+    height: 50%;
+}
+.product{
+    
+    background-color: white;
+    display: flex;
+    width:18%;
+    flex-direction: column;    
+}
+
+.contimg{
+    width: 100%;
+    height: 100%;
+}
+.imgproduct{
+    position: relative;
+    height: 300px;
+    min-width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.sale{
+    margin: -5% 0% 0% 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 21%;
+    height: 7%;
+    color: white;
+    background-color:#E74040;
+    border-radius: 3px;
+    top: 10%;
+    position: absolute;
+}
+.productbtn{
+    width: 50%;
+    background-color: transparent;
+    color: #96BB7C;
+    border: 1px solid #96BB7C;
+    border-radius: 37px;
+}
+.prodtitle{
+    color: #96BB7C;
+}
+.icones{
+    position: absolute;
+    top: 86%;
+    left: 20%;
+    max-width: 100%;
+    display: flex;
+}
+.icone{
+    margin:2%;
+    width: 40px;
+    height: 35px;
+    min-height: 100%;
+    background-color: white;
+    border-radius: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.note{
+    display: flex;
+    background-color: gold;
+    color:white;
+    border-radius: 15%;
+    justify-content: space-around;
+
+}
+.star{
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+    
+}
+.description{
+    margin: none;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    min-height: 100%;
+    align-items: center;
+}
+.offerspage{
+    display: flex;
+    flex-direction: column;
+}
+.offers {
+    margin:0 16% 0 13%;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.offer {
+    background: white;
+    border: 1px solid white;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px gray;
+    padding: 20px;
+    text-align: center;
+    max-width: 250px;
+    transition: 2s;
+}
+.circle  {
+    font-size: 50px;
+    color: white;
+    background-color: #96BB7C;
+    border-radius: 50%;
+    display: inline-block;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.heart{
+    color: white;
+}
+.offer h1 {
+    margin: 10px 0;
+}
+
+.offer p {
+    
+    margin: 10px 0;
+}
+.greencirlcle , .graycirlcle{
+    width: 18px;
+    height: 18px;
+    border-radius: 50px;
+    justify-content: center;
+    align-items: center;
+}
+.greencirlcle{
+    background-color: #2DC071;
+}
+.graycirlcle{
+    background-color: gray;
+}
+.offercomments{
+    display: flex;
+    align-items: center;
+}
+.offerbtn{
+    width: 75%;
+    background-color: #96BB7C ;
+    color: white;
+    border:none;
+    border-radius: 5%;
+}
+.offer:hover{
+    background-color: #2D4059;
+    height: 85%;
+    scale: 0.95;
+    color: white;
+}
+.teachers{
+    display: flex;
+    margin: 2% 5% 2% 5% ;
+    
+}
+.teacher{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    margin: 0 15% 0 15%;
+    justify-content: space-around;
+    align-items: center;
+}
+.imgteacher{
+    border-radius: 50%;
+}
+.stars i{
+    color: #F3CD03;
+    margin: 4px;
+    font-size: 20px;
+    cursor: pointer;
+    background-color: white;
+}
+.stars i.active{
+    background-color: #F3CD03;
+}
+.loginpage{
+    background-color:   #FFF2F3;
+    display: flex;
+    flex-direction: column;
+}
+.login{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10% 25% 10% 25%;
+}
+.login form{
+    display: flex;
+}
+.login input{
+    width:500px;
+    height:50px;
+    border:none;
+}
+.login button{
+    background-color: #96BB7C;
+    color: white;
+    width:100px;
+    height:50px;
+    border:none;
+    border: 5%;
+}
+.infobar{
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+}
+.infos{
+    display: flex;
+    flex-direction: column;
+}
+
+.infos p{
+    color:#737373;
+    font-size: 14px;
+    display: flex;
+}
+.infotitle{
+    font-family: fantasy;
+    font-size: 16px;
+    color: black;
+}
+.infos p i{
+    color: #2DC071;
+    margin-right: 5%;
+}
+footer{
+    background-color: #FAFAFA;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+footer p{
+    color:#737373;
+}
+footer .fotersymbols{
+    display: flex;
+    justify-content: space-between;
+    color: #2DC071;
+}
+footer .fotersymbols i{
+    margin-left:50% ;
+}
