@@ -1,8 +1,19 @@
-const stars=document.querySelectorAll(".stars i") ;
-stars.forEach((star,index1) => {
-    star.addEventListener("click",() =>{
-        stars.forEach((star,index2) =>  {
-            index1 >=index2 ? star.classList.add("active") : star.classList.remove("active")
-        })
-    })
-})
+let stars = document.getElementsByClassName("star");
+function rating(n){
+    let s=0;
+    if(n>5){
+        s=5;
+    }
+    remove(s,n);
+    for (let i = s; i<n; i++) {
+        stars[i].className = "fa-solid  fa-star star rate" ;
+    }
+    
+}
+function remove(s) {
+    let i = s;
+    while (i < s+5) {
+        stars[i].className = "fa-solid fa-star star";
+        i++;
+    }
+}
